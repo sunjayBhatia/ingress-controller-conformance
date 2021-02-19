@@ -1,4 +1,4 @@
-@sig-network @conformance @release-1.19
+@sig-network @conformance @release-1.19 @hostrules
 Feature: Host rules
   An Ingress may define routing rules based on the request host.
   

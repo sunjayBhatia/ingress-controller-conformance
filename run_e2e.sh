@@ -29,6 +29,7 @@ set -x
     --ingress-class="${INGRESS_CLASS}" \
     --output-directory="${RESULTS_DIR}" \
     --wait-time-for-ingress-status="${WAIT_FOR_STATUS_TIMEOUT}" \
+    --tags=hostrules \
     --test.timeout="${TEST_TIMEOUT}"
 ret=$?
 #set -x
